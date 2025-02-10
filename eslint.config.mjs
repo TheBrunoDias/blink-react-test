@@ -59,8 +59,11 @@ export default [
       },
 
       'import/parsers': {
-        '/home/bruno/www/projects/blink-react-test/node_modules/@typescript-eslint/parser/dist/index.js':
-          ['.ts', '.tsx', '.d.ts'],
+        '/node_modules/@typescript-eslint/parser/dist/index.js': [
+          '.ts',
+          '.tsx',
+          '.d.ts',
+        ],
       },
     },
 
