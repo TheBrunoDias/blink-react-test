@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# Blink Parametrics - React Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses [Vite](https://vitejs.dev/) for a fast and efficient development environment. Below are the instructions to set up, run, and test the application.
 
-Currently, two official plugins are available:
+## Technologies and Libraries Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/) - Library for building user interfaces.
+- [Vite](https://vitejs.dev/) - Tool for building and bundling the application.
+- [Material UI](https://mui.com/) - Styled component library for React.
+- [React Query](https://tanstack.com/query/latest) - Efficient asynchronous state management.
+- [React Cookies](https://www.npmjs.com/package/react-cookie) - Cookie management in React.
+- [Zod](https://zod.dev/) - Schema validation and parsing for TypeScript.
+- [Axios](https://axios-http.com/) - Promise-based HTTP client.
+- [date-fns](https://date-fns.org/) - Library for date manipulation.
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before starting, make sure you have installed:
 
-- Configure the top-level `parserOptions` property like this:
+- [Node.js](https://nodejs.org/) (recommended: LTS version)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) (package manager)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Installation
+
+Clone the repository and install dependencies:
+
+```sh
+# Clone the repository
+git clone https://github.com/TheBrunoDias/blink-react-test.git
+
+# Navigate to the project directory
+cd blink-react-test
+
+# Install dependencies
+npm install  # or yarn install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Running the Project
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To start the development server, use:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+npm run dev  # or yarn dev
 ```
+
+The application will be available at [http://localhost:5173](http://localhost:5173) by default.
+
+## Running Tests
+
+If tests are configured, use:
+
+```sh
+npm test  # or yarn test
+```
+
+## Available Scripts
+
+- `npm run dev` - Starts the development server.
+- `npm run build` - Generates the production build.
+- `npm run preview` - Runs a local server to preview the build.
+- `npm test` - Runs automated tests.
+
+
+## Final Considerations
+
+This project follows best practices for developing with React and Vite, utilizing modern libraries to optimize performance and productivity.
+
