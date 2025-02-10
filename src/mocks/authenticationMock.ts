@@ -1,0 +1,17 @@
+export const authenticationApiResponseMock = {
+  status: 'SUCCESS',
+  userId: 'd1caff70e59e11efa31b9bfbdcd2d70c',
+  federated: 0,
+  accessGroupId: 'default',
+  accessToken:
+    'eyJraWQiOiIwNjdaSER1OTVGN2NiZmJsc2wrNnc3Uko0amZISXAwUE1aZm45ejhCYnJZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MWRkODY0Yi1mMjM3LTRiZjYtYWMzYS1hNWYyODFlNzA2MjMiLCJldmVudF9pZCI6IjQ0MzM0ZDZiLTdhNGItNDNjYS1iMGNmLTJjZTY2YjYyYzE3ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3MzkxODUxODcsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX0N1c3pvajhqSCIsImV4cCI6MTczOTE4ODc4NywiaWF0IjoxNzM5MTg1MTg3LCJqdGkiOiJlMGVjNTQ5YS00NDVkLTQ3YWUtOTRlOC1jYTQ3Mzc0ZTZjMGUiLCJjbGllbnRfaWQiOiI1OGgza2J0c2lldmZhZGZmYmM2bjJzZ25rcyIsInVzZXJuYW1lIjoiZDFjYWZmNzBlNTllMTFlZmEzMWI5YmZiZGNkMmQ3MGMifQ.Ps7iM99bFdo8C7wxryWsFCRvJelzKurNL4HeSIfG_d9IcPIYFmOLMqSvLAOHEAAFxxYcjhLjkELWhlaXd5aGU1KMaqFhL-eDjz0OyhzvGPtIXvFVIKSD36Hp9DZE62JHxiulvAVyg-qvjLqm-tYBKMkxeHKsmwz3Fp3GxHOAKV-6weqgORfGH4s_IeDrq_HgsLxIXQeNXtrzfyLWLhr7EAeB4uZu9s9n-TXKFb7BvY3gE-wL1wVOirhhnazRRaJ0lEP2YvSuC-a389GaQYTL0p9Q_BPSUE4TS7i_cpAvRBfbBDMUV_EO8Q0UBTOV0i5M9MIJcQd5UEHDetfA1BZRfA',
+  accessTokenExpiry: 1739188787,
+  roles: {
+    USER: {
+      read: true,
+      write: true,
+    },
+  },
+  id: 'd1caff70e59e11efa31b9bfbdcd2d70c',
+  partnerId: 'blink-travel-new',
+};
