@@ -13,6 +13,7 @@ export function PassengerCard({
 }: PassengerCardProps) {
   return (
     <Box
+      aria-label="Passenger Card"
       sx={{
         display: 'flex',
         flexDirection: 'row',
@@ -23,7 +24,12 @@ export function PassengerCard({
       }}
     >
       <Box>
-        <Avatar sx={{ width: 56, height: 56 }} src={avatarUrl}>
+        <Avatar
+          aria-label={`${fullName} avatar`}
+          alt={`${fullName} avatar`}
+          sx={{ width: 56, height: 56 }}
+          src={avatarUrl}
+        >
           {fullName[0].toUpperCase()}
         </Avatar>
       </Box>

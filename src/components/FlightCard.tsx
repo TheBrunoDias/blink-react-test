@@ -12,6 +12,7 @@ export function FlightCard({
 }: FlightTripsProps) {
   return (
     <Box
+      aria-label="Flight Card"
       sx={{
         p: 2,
         borderRadius: 1,

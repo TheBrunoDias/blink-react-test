@@ -42,12 +42,8 @@ export function PassengersList() {
       {passengers.map((passenger) => (
         <PassengerCard
           key={passenger.passengerId}
-          fullName={
-            passenger.name && passenger.surname
-              ? passenger.name.concat(' ').concat(passenger.surname)
-              : ''
-          }
-          phone={passenger.mobilePhoneNumber ?? ''}
+          fullName={passenger.name.concat(' ').concat(passenger.surname)}
+          phone={passenger.mobilePhoneNumber}
         />
       ))}
     </Stack>

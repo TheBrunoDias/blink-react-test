@@ -16,7 +16,7 @@ describe('useAuth', () => {
 
     await act(async () => {
       return await result.current.login({
-        email: 'teste@teste.com',
+        email: 'Test@Test.com',
         password: 'test123',
       });
     });
@@ -37,7 +37,7 @@ describe('useAuth', () => {
 
     const loginResult = await act(async () => {
       return await result.current.login({
-        email: 'teste@teste.com',
+        email: 'Test@Test.com',
         password: 'test123',
       });
     });
@@ -54,7 +54,7 @@ describe('useAuth', () => {
 
     const loginResult = await act(async () => {
       return await result.current.login({
-        email: 'teste@teste.com',
+        email: 'Test@Test.com',
         password: 'test123',
       });
     });

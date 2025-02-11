@@ -11,6 +11,7 @@ export default defineConfig({
     globals: true,
     setupFiles: './setupTests.ts',
     coverage: {
+      enabled: true,
       exclude: [
         'coverage/**',
         'dist/**',
